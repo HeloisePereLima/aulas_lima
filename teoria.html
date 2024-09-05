@@ -1,0 +1,152 @@
+<!DOCTYPE html >
+<html lang="pt-br">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-wifth, initial-scale=1.0">
+ <title>Pagina Principal </title>
+ 
+ <style>
+    /* Seletor universal*/
+    *{
+        margin: 0;
+    }
+
+    /*seletor de tipo, aplicando em uma tag */ 
+    p{
+        color:brown;
+    }
+
+    /*sletor de classe */
+    .paragrafo{
+        background-color:rgb(20, 237, 164);
+        /* margin: 10px; -Aplica em todas as margens */
+        /* margin: 10px 40px; - aplica nas margens 'Laterais' e 'superior e inferior'*/
+        /* margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
+        margin-left: 10px;
+        /*Alinha elementos ao centro */
+        text-align:center;
+    }
+    
+    .imagem{
+        width: 150px;
+        height: 100px;
+    }
+
+ </style>
+</head>
+
+<!-- aplicando css inline cor de fundo -->
+<body style="background-color: rgb(208, 106, 219);">
+    Ola mundo!
+    <!--titulos de nivel 1 ao 6-->
+    <h1>Desenvolvimento de sistemas</h1>
+    <h2>Cabeçalho de nivel 2</h2>
+    <h3>Cabeçalho do nivel 3</h3>
+    <h4>Cabeçalho do nivel 4</h4>
+    <h5>Cabeçalho do nivel 5</h5>
+    <h6>Cabeçalho do nivel 6</h6>
+
+    <!-- insere uma linha na horizontal -->
+    <hr>
+
+
+    <!-- A tag br quebra um alinha, ela é uma tag sem fechamento -->
+    <p> Este é um paragrafo </p>  Outro paragrafo</p> </p>
+    <hr>
+    <p> Este é um texto muito grande,<br>
+        que eu desejo quebrar a linha</p> 
+
+
+    <!-- Inserindo um link para abrir uma pagina -->
+    <a href="https://www.sesisp.org.br" >Pagina do sesi </a> 
+
+    <!-- Link com atributo _blank para abrir um outra janela -->
+    <a href=" https://www.sp.senai.br/"target= "_blank" >Senai</a>
+
+    <!-- Tag img para adiconar uma imagem, o atributo src e preenchido com o caminho da imagem -->
+     <img src=" https://cdn.folhape.com.br/upload/dn_arquivo/2024/04/whatsapp-image-2024-04-19-at-075907.jpeg"> 
+
+    <img src="img/flores-patricio-bob-esponja (1).gif">
+
+    <p>Paragrafo com caracter &it;br&gt;</p>
+    <p>&reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr; </p>
+
+    <!-- Para inserir emoji use o hexadecimal do site emojipedia.org e o codigo vai depois do &#x -->
+
+    <p> Inserindo um emoji &#x1F60A &#x2764 ⭐</p>
+
+    <!-- tags para formatacao e enfatização do Texto  -->
+    <b>Texto em negrito <b><br>
+    <strong>texto importante</strong><br>
+    <h1><i>H1 Italico</i></h1><br>
+    <em>Texto enfatizado</em><br>
+    <Mark>Texto Marcado</Mark><br>
+    <h3>Texto <small>Menor</small></h3>
+    <del>texto excluido</del><br>
+    <ins>Texto Inserido</ins>
+    <p>4<sub>2</sub></p>
+    <u>Texto sublinhado </u>
+
+    <!--aplicando link em uma imagem-->
+    <a href="https://www.sesisp.org.br" ><img src="img/logo-do-sesi.jpg" alt=""></a>  
+    
+    <p style="font-size: xx-large;"> Videos do youtube</p>
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/Ps042FNImds" title="MC Cebezinho, MC Tuto, MC Kako - A Danada Me Ligando  - PEGA NÓS, NÃO PEGA NÃO - DJ OREIA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- aplicando css interno -->
+    <p class= "paragrafo">
+        logo do google
+        <img class="imagem" src="img/i606944.webp" alt="">  
+    </p>
+
+    <!-- listas -->
+    <!-- listas Ordenadas -->
+     <ol>
+        <li>Arcordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar niforme</li>
+        <li>Tomar cafe</li>    
+        <li>Escovar os dentes</li>    
+        <li>Ir para escola no horario</li>    
+     <ol>
+    <!-- Lista ordenadas com numeros romanos minusculo -->
+    <ol type="i">
+            <li>Arcordar</li>
+            <li>Tomar banho</li>
+            <li>Colocar niforme</li>
+            <li>Tomar cafe</li>    
+            <li>Escovar os dentes</li>    
+            <li>Ir para escola no horario</li>    
+         <ol>
+     <!-- Lista ordenadas com letras maiusculas -->
+     <ol type="A">
+        <li>Arcordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar niforme</li>
+        <li>Tomar cafe</li>    
+        <li>Escovar os dentes</li>    
+        <li>Ir para escola no horario</li>    
+     <ol>
+    
+     <!-- Lista dentro de lista -->
+     <ul>
+        <li>Carne
+            <ul>
+                <li>Picanha</li>
+                <li>Cupim</li>
+                <li>Ponta de peito</li>
+            </ul>
+        </li>
+    <ul>
+
+    <!-- lista predefinida -->
+     <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para conteudo deum site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização do site</dd>
+        <
+        <dt>Linguagem de programação</dt>
+     </dl>
+    </body>
+</html>
