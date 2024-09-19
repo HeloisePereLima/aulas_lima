@@ -4,39 +4,10 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-wifth, initial-scale=1.0">
  <title>Pagina Principal </title>
- 
- <style>
-    /* Seletor universal*/
-    *{
-        margin: 0;
-    }
-
-    /*seletor de tipo, aplicando em uma tag */ 
-    p{
-        color:brown;
-    }
-
-    /*sletor de classe */
-    .paragrafo{
-        background-color:rgb(20, 237, 164);
-        /* margin: 10px; -Aplica em todas as margens */
-        /* margin: 10px 40px; - aplica nas margens 'Laterais' e 'superior e inferior'*/
-        /* margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/
-        margin-left: 10px;
-        /*Alinha elementos ao centro */
-        text-align:center;
-    }
-    
-    .imagem{
-        width: 150px;
-        height: 100px;
-    }
-
- </style>
+ <link rel="stylesheet" href="./css/styles.css">
 </head>
-
 <!-- aplicando css inline cor de fundo -->
-<body style="background-color: rgb(208, 106, 219);">
+<body>
     Ola mundo!
     <!--titulos de nivel 1 ao 6-->
     <h1>Desenvolvimento de sistemas</h1>
@@ -66,7 +37,7 @@
     <!-- Tag img para adiconar uma imagem, o atributo src e preenchido com o caminho da imagem -->
      <img src=" https://cdn.folhape.com.br/upload/dn_arquivo/2024/04/whatsapp-image-2024-04-19-at-075907.jpeg"> 
 
-    <img src="./img/flores-patricio-bob-esponja (1).gif (1).gif">
+    <img src="img/flores-patricio-bob-esponja (1).gif">
 
     <p>Paragrafo com caracter &it;br&gt;</p>
     <p>&reg; &copy; &trade; &euro; &pound; &yen; &cent; &delta; &uarr; </p>
@@ -142,11 +113,87 @@
     <!-- lista predefinida -->
      <dl>
         <dt>HTML</dt>
-        <dd>Linguagem de marcação para conteudo deum site</dd>
+        <dd>Linguagem de marcação para conteudo de um site</dd>
         <dt>CSS</dt>
         <dd>Linguagem de estilização do site</dd>
-        
+        <dt>Javascript</dt>
         <dt>Linguagem de programação</dt>
      </dl>
-    </body>
+
+     </body>
 </html>
+
+    <!-- Trabalhando com tabelas -->
+<br>
+<br>
+<!-- cria uma nova tabela -->
+  <table border="1">
+    <!-- tr cria uma nova linha -->
+     <tr>
+        <!-- th insere uma celula de cabeçalho  -->
+        <th>Nome</th>
+        <th>idade</th>
+        <th>Profissão</th>
+     </tr>
+     <tr>
+        <!-- td cria uma nova celula de dados -->
+         <td>Douglas</td>
+         <td>32</td>
+         <td>Professor</td>
+     </tr>
+     <tr>
+        <td>Ricardo</td>
+        <td>33</td>
+        <td>Professor</td>
+     </tr>
+  </table>
+
+  <br>
+  <table class="tabela">
+    <!-- tag semantica de cabeçalho -->
+     <thead>
+        <tr>
+            <th class="cabeçalho cabeçalho2"> Nome</th>
+            <th class="cabeçalho cabeçalho3">Telefone</th>
+            <th class="cabeçaho cabeçalho2">Cidade</th>
+        </tr>
+     </thead>
+     <tbody>
+        <tr>
+            <td class= "celula"> Jose da Silva</td>
+            <td  class= "celula"> 2345678</td>
+            <td  class= "celula"> Andradina</td>
+        </tr>
+        <tr>
+            <td class= "celula"> Maria da Silva</td>
+            <td class= "celula"> 2345678</td>
+            <td class= "celula"> Andradina</td>
+        </tr>
+     </tbody>
+     </table>
+  <!-- aplicando colspan e rowspan -->
+   <table border= "1">
+    <tr>
+        <th>Nome</th>
+        <th colspan="2" >Telefone</th>
+    </tr>
+    <tr>
+        <td>Ricardo</td>
+        <td>89892812</td>
+        <td>87817287</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Joaquim</td>
+        <td>123434</td>
+        <td>121212</td>
+    </tr>
+    <tr>
+        <td>232323</td>
+        <td>232323</td>
+    </tr>
+   </table>
+ 
+</body>
+</html>
+
+
