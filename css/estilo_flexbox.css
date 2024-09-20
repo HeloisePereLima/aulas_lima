@@ -1,0 +1,25 @@
+.div1{
+    background-color: #1540ff;
+}
+.div2{
+    background-color: blueviolet;
+}
+.div3{
+    background-color: rgb(17, 228, 168);
+}
+
+.conteiner{
+    border: 2px solid rgb(0, 0, 0);
+    /* Limita o tamanhodo do elemento */
+    max-width: 400px;
+    margin: 0 auto;
+    /* define o tamanho do elemnto e o espaço entre eles */
+    display: flex;
+}
+
+.item{
+    background: #1540ff;
+    margin:5px;
+    text-align: center;
+    color:aliceblue;
+}
