@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="./HTML/css/estilo_flexbox.css">
+</head>
+
+<body>
+    <h1>Trabalhando com Div</h1>
+    <div class="div1">
+        <h2>Londres</h2>
+        <p style="background-color: rgb(204, 213, 213);">Londres é a capital da IngLaterra</p>
+        <p>Londres tem 13 milhões de habitantes</p>
+    </div>
+    <div class="div2">
+        <h2>Londres</h2>
+        <p>Londres é a capital da IngLaterra</p>
+        <p>Londres tem 13 milhões de habitantes</p>
+    </div>
+    <div class="div3">
+        <h2>Londres</h2>
+        <p>Londres é a capital da IngLaterra</p>
+        <p>Londres tem 13 milhões de habitantes</p>
+    </div>
+
+    <h1>Trabalhando com flexbox</h1>
+    <p>Utilizamos flexbox para posicionar os elemntos de uma linha ou coluna de forma dinamica</p>
+
+    <p>Por padroes, os elementos são exibidos em bloco(block)</p>
+    <section class="container">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+    </section>
+
+    <P>Flex com mais elementos, preencher a largura da tela</P>
+    <section class="container">
+        <div class="item">item 1</div>
+        <div class="item">item 2</div>
+        <div class="item">item 3</div>
+        <div class="item">item 4</div>
+        <div class="item">item 5</div>
+        <div class="item">item 6</div>
+        <div class="item">item 7</div>
+        <div class="item">item 8</div>
+        <div class="item">item 9</div>
+    </section>
+
+    <p>Flex Direction - Alterando a direção do elemento</p>
+    <section class="Flex">
+        <div class="div-coluna">
+            
+        </div>
+    </section>
+
+    <p>Flex wrap - Faz a quebra do elemento quando não ha mais espaço na tela</p>
+    <section class="secao">
+        <img class='secao-imagem'
+            src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"
+            alt="">
+        <img class='secao-imagem'
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSX-cXSC4UxI1ILRijuEIkQunbbw9BCIGJ26A&s" alt="">
+        <img class='secao-imagem'
+            src="https://montinkantigo.s3.amazonaws.com/data/camisas/lindinha-meninas-super-poderosas-5d44cf3edde6f-estampa-301.png"
+            alt="">
+        <img class='secao-imagem'
+            src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2017/09/18165323/as-meninas-superpoderosas.jpg"
+            alt="">
+        <img class='secao-imagem'
+            src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2017/09/18165323/as-meninas-superpoderosas.jpg"
+            alt="">
+        <img class='secao-imagem'
+            src="https://fly.metroimg.com/upload/q_85,w_700/https://uploads.metroimg.com/wp-content/uploads/2017/09/18165323/as-meninas-superpoderosas.jpg"
+            alt="">
+    </section>
+  <p>Justify - content - Ainhar os intens flex no container de acordo com a direção.</p>
+  <section class="alinhar-esquerda">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  </section>
+
+  <p>Alinhar a direita</p>
+  <section class="alinha-direita">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  </section>
+
+  <p>Alinhar ao centro</p>
+  <section class="alinha-centro">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  </section>
+
+  <p>Alinha os elementos nos cantos e ajusta ao centro</p>
+  <section class="alinha-entre">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  </section>
+  <p>Space-around - alinhar os elementos a partir do espaço ao redor</p>
+  <section class="alinhar-redor">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  </section>
+  <P>Espaçamento usando colunas</P>
+  <section class="alinhar-coluna">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+    <img class='secao-imagem'src="https://www.nicelembrancinhas.com.br/image/cache/catalog/MENINAS%20SUPER%20PODEROSAS/DOCINHO%209CM-650x650.png"alt="">
+  </section>
+  <section class="alinhar-itens-centro">
+    <div>Item 1</div>
+    <div>Item 2</div>
+    <div>Item 3</div>
+    <div>Item 4</div>
+  </section>
+
+  
+ <p>Cards usando divs</p>
+ <section class="container-card">
+    <article class="card">
+        <header class="cabecalho-card">
+            <h2 class="titulo-card">Pokedéx</h2>
+            <p class="subtitulo-card">Pikachu</p>
+        </header>
+        <figure class="imagem-card">
+            <img src="https://www.icegif.com/wp-content/uploads/icegif-5787.gif" alt="">
+            <figcaption>Pokemon do tipo eletrico</figcaption>
+        </figure>
+        <div class="conteudo-card">
+            <p>Este pokemon é poderoso, podendo emitir raios elétricos</p>
+        </div>
+        <footer class="rodape-card">
+            <a href="" class="botao-card" >Saiba mais</a>
+        </footer>
+    </article>
+
+    <article class="card">
+        <header class="cabecalho-card">
+            <h2 class="titulo-card">Pokedéx</h2>
+            <p class="subtitulo-card">Bulbassauro</p>
+        </header>
+        <figure class="imagem-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9algHP6rhazKZIWdL0dLw6NNz2xQ8RNvIxg&s" alt="">
+            <figcaption>Pokemon do tipo planta</figcaption>
+        </figure>
+        <div class="conteudo-card">
+            <p>Seu chicote é poderoso, podendo capturar seus oponentes</p>
+        </div>
+        <footer class="rodape-card">
+            <a href="" class="botao-card" >Saiba mais</a>
+        </footer>
+    </article>
+
+    <article class="card">
+        <header class="cabecalho-card">
+            <h2 class="titulo-card">Pokedéx</h2>
+            <p class="subtitulo-card">Bulbassauro</p>
+        </header>
+        <figure class="imagem-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9algHP6rhazKZIWdL0dLw6NNz2xQ8RNvIxg&s" alt="">
+            <figcaption>Pokemon do tipo planta</figcaption>
+        </figure>
+        <div class="conteudo-card">
+            <p>Seu chicote é poderoso, podendo capturar seus oponentes</p>
+        </div>
+        <footer class="rodape-card">
+            <a href="" class="botao-card" >Saiba mais</a>
+        </footer>
+    </article>
+
+    <article class="card">
+        <header class="cabecalho-card">
+            <h2 class="titulo-card">Pokedéx</h2>
+            <p class="subtitulo-card">Charizard</p>
+        </header>
+        <figure class="imagem-card">
+            <img src="https://www.maskotkowo.pl/galerie/p/pokemon-ch-figurka-akcji-delu_35424.jpg" alt="">
+            <figcaption>Pokemon do tipo fogo</figcaption>
+        </figure>
+        <div class="conteudo-card">
+            <p>Este pokemon as suas asas flamejantes queimam qualquer adversário</p>
+        </div>
+        <footer class="rodape-card">
+            <a href="" class="botao-card" >Saiba mais</a>
+        </footer>
+    </article>
+    <article class="card">
+        <header class="cabecalho-card">
+            <h2 class="titulo-card">Pokedéx</h2>
+            <p class="subtitulo-card">Squirtle</p>
+        </header>
+        <figure class="imagem-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx_Qs4cljIlFpSNFvNSEZ3VfFQlMevDTUs-Q&s" alt="">
+            <figcaption>Pokemon do tipo agua</figcaption>
+        </figure>
+        <div class="conteudo-card">
+            <p>Este pokemon tem ataques do tipo agua</p>
+        </div>
+        <footer class="rodape-card">
+            <a href="" class="botao-card" >Saiba mais</a>
+        </footer>
+    </article>
+    </article>
+    <article class="card">
+        <header class="cabecalho-card">
+            <h2 class="titulo-card">Pokedéx</h2>
+            <p class="subtitulo-card">Squirtle</p>
+        </header>
+        <figure class="imagem-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRx_Qs4cljIlFpSNFvNSEZ3VfFQlMevDTUs-Q&s" alt="">
+            <figcaption>Pokemon do tipo agua</figcaption>
+        </figure>
+        <div class="conteudo-card">
+            <p>Este pokemon tem ataques do tipo agua</p>
+        </div>
+        <footer class="rodape-card">
+            <a href="" class="botao-card" >Saiba mais</a>
+        </footer>
+    </article>
+
+
+
+    
+
+
+
+ </section>
+
+
+ 
+
+
+</body>
+
+
+</html>
